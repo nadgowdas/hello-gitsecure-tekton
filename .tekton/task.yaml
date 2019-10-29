@@ -11,6 +11,7 @@ spec:
         description: the git repo
       - name: revision
         description: the revision
+        default: master
   steps:
     - name: clone-repo
       image: alpine/git
