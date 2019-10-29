@@ -37,7 +37,7 @@ spec:
         - "-gitbranch"
         -  $(inputs.params.revision)
         - "-repodir"
-        -  $(inputs.params.task-pvc)
+        -  "/artifacts"
         - "-dburl"
         - "bolt://169.47.180.157:30687"
         - "-clairapi"
