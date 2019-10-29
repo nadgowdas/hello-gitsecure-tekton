@@ -38,7 +38,7 @@ spec:
         - "-gitbranch"
         -  $(inputs.params.revision)
         - "-repodir"
-        -  "/artifacts"
+        -  "/workspace"
         - "-dburl"
         - "bolt://169.47.180.157:30687"
         - "-clairapi"
