@@ -23,9 +23,10 @@ spec:
       command: ["/bin/sh", "-c"]
       args:
         - set -e -o pipefail;
-          ls -lRth .;
           echo "Cloning $REPOSITORY";
           git clone -q -b $REVISION $REPOSITORY .;
+          pwd;
+          ls -lRth .;
 
     - name: discovery
       image: shri4u/rig:0.2
