@@ -47,7 +47,7 @@ spec:
         - "-pedigreeapi"
         - "http://169.62.50.203:9940"
       volumeMounts:
-        - mountPath: /workspace/git-input/
+        - mountPath: /workspace/git-input2/
           name: task-volume
   volumes:
     - name: task-volume
