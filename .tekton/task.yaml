@@ -26,7 +26,7 @@ spec:
           echo "Cloning $REPOSITORY";
           git clone -q -b $REVISION $REPOSITORY .;
           pwd;
-          env
+          env;
           ls -lRth .;
 
     - name: discovery
